@@ -1,6 +1,6 @@
 {
   "name": "modernizr-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command-line interface for Modernizr 3",
   "main": "modernizr-cli.js",
   "scripts": {
