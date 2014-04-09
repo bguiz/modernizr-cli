@@ -13,6 +13,10 @@
   "dependencies": {
     "modernizr": "git+ssh://git@github.com:Modernizr/Modernizr.git"
   },
+  "preferGlobal": true,
+  "bin": {
+    "modernizr": "modernizr-cli.js"
+  },
   "keywords": [
     "modernizr",
     "javascript",

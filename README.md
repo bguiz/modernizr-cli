@@ -1,6 +1,10 @@
-# Modernizr 3 command line
+# Modernizr 3 Command Line Interface
 
-Want to use the Modernizer 3 via the command line?
+Use the Modernizer 3 via the command line - like so:
+
+    modernizr config.json
+
+Both the minified and non-minified output will be produced.
 
 ## Sample usage
 
@@ -10,7 +14,9 @@ Want to use the Modernizer 3 via the command line?
     # >> Local Npm module "foo" not found. Is it installed?
     cp node_modules/modernizr/lib/config-all.json ./custom.json
     #edit custom.json to suit what you want
-    modernizr-cli custom.json custom.modernizr.js custom.modernizr.min.js
+    modernizr custom.json custom.modernizr.js custom.modernizr.min.js
+    #or, if you do not mind using default names for output files:
+    modernizr custom.json
 
 ## License
 
