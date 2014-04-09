@@ -1,6 +1,6 @@
 {
   "name": "modernizr-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command-line interface for Modernizr 3",
   "main": "modernizr-cli.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "modernizr": "git+ssh://git@github.com:Modernizr/Modernizr.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "modernizr": "modernizr-cli.js"
   },
   "keywords": [
     "modernizr",
